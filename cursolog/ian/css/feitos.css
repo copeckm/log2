@@ -1,0 +1,26 @@
+.tituloPara{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif,; 
+    font-weight: 300px;   
+    margin-top: 20px;
+    margin-left: 40%;
+    margin-right: 40%;
+    
+}
+.feitosPara{
+    color:black ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.falecimentoPara{
+    color:black ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;;
+}

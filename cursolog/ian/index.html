@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-sm bg-body-tertiary">
+        <div class="container-sm">
+          <a class="navbar-brand" href="/index.html"img
+          ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+            <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"/>
+          </svg></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link " href="/pages/primeirosAnos.html">Primeiros anos</a>
+              <a class="nav-link" href="/pages/feitos.html">A primeira Dama</a>
+              <a class="nav-link" href="/pages/galeria.html">Galeria de Eleanor Roosevelt</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div>
+    <h1 class="text-center" >Eleanor Roosevelt - Fatos Rápidos</h1>
+    <ul>
+        <li><strong>Data de Nascimento:</strong> 11 de outubro de 1884 em Nova Iorque</li>
+        <li><strong>Pais:</strong> Anna Hall e Elliott Roosevelt. Sua mãe faleceu quando Eleanor tinha oito anos, e seu pai, que era o irmão mais novo de Theodore Roosevelt, faleceu quando ela tinha dez anos.</li>
+        <li><strong>Irmãos:</strong> Elliott Roosevelt, Jr. (1889-1893) e Gracie Hall Roosevelt (1891-1941)</li>
+        <li><strong>Educação:</strong> Ela foi educada em casa até 1899 e, posteriormente, frequentou a Allenswood School, perto de Londres, Inglaterra, de 1899 a 1902.</li>
+        <li><strong>Casamento:</strong> Eleanor Roosevelt se casou com Franklin D. Roosevelt, seu quinto primo, em 17 de março de 1905, na cidade de Nova Iorque.</li>
+        <li><strong>Filhos:</strong> O casal teve cinco filhos: Anna Eleanor Roosevelt (3 de maio de 1906 - 1 de dezembro de 1975), James Roosevelt (23 de dezembro de 1907 - 13 de agosto de 1990), Franklin D. Roosevelt, Jr. (18 de março de 1909 - 8 de novembro de 1909), Elliott Roosevelt (23 de setembro de 1910 - 27 de outubro de 1990) e Franklin D. Roosevelt, Jr. (17 de agosto de 1914 - 17 de agosto de 1988).</li>
+        <li><strong>Atividades:</strong> Eleanor Roosevelt desempenhou várias funções ao longo de sua vida, incluindo professora na Todhunter School for Girls em Nova Iorque, co-fundadora da Val-Kill Industries, palestrante, escritora (incluindo a coluna de jornal sindicada "My Day" nos jornais do King Features, de dezembro de 1935 até outubro de 1962), delegada dos Estados Unidos na Assembleia Geral das Nações Unidas, presidente da Comissão de Direitos Humanos da ONU e membro de muitas organizações educacionais, humanitárias e políticas.</li>
+        <li><strong>Aparência Física:</strong> Eleanor tinha cabelos castanhos, media 1,78 metros de altura e tinha olhos azuis.</li>
+        <li><strong>Morte:</strong> Eleanor Roosevelt faleceu em 7 de novembro de 1962, na cidade de Nova Iorque, devido a uma combinação de anemia aplástica, tuberculose disseminada e insuficiência cardíaca.</li>
+    </ul>
+    </div>
+  <div>
+    <h4 class="text-center">
+    Aqui você pode usar nosso gerador de frases marcantes de Anna Eleanor Roosevelt e ter uma inspiração para um momento de indecisão na vida.
+    </h4>
+    <div>
+      <div class="card">
+        <div class="card-header text-center">
+          <button type="button" class="btn btn-outline-dark"  onclick="gerarFrase()">Exiba uma frase nova:</button>
+        </div>
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <p id="frase" class="text-center"></p>
+            <footer class="blockquote-footer">Eleanor Roosevelt <cite title="Source Title">1884-1962</cite></footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+        <nav>
+          <div class=" text-center">
+              <a href="https://pt.wikipedia.org/wiki/Eleanor_Roosevelt" target="_blank" rel="noopener"><img width="75px" height="75px" src="https://pt.wikipedia.org/static/images/icons/wikipedia.png" alt="icone da wikipedia"></a>
+              <a href="https://www.youtube.com/results?search_query=vida+de+eleanor+roosevelt" target="_blank" rel="noopener" >        <img width="75px" height="75px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/YouTube_social_white_square_%282017%29.svg/2048px-YouTube_social_white_square_%282017%29.svg.png" alt=""></a>
+              <br>
+              <span>@ 2023 - Centec-AM</span>
+            </div>
+        </nav>
+        
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="/scripts/index.js"></script>
+  </div>
+</body>
+</html>
